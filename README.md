@@ -1,0 +1,2 @@
+# AutoWhitelistAuditSystem
+使用Python脚本借助MCSM联动qq完成MinecraftBedrockEdition服务器的白黑名单操作
