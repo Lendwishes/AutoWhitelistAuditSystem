@@ -200,7 +200,7 @@ if x < 1:
 					file.close()
 					command = "whitelist add \"" + id + "\""
 					try:
-						requests.post(url=urla + 'api/execute/?apikey=' + key,data={'name':servername,'command':command},headers={'Content-Type':'application/x-www-form-urlencoded'})
+						requests.post(url=urla + '/api/execute/?apikey=' + key,data={'name':servername,'command':command},headers={'Content-Type':'application/x-www-form-urlencoded'})
 					except Exception as e:
 						print(e.__class__.__name__,e)
 					print("ID:" + id + "\nQQ:" + qq)
